@@ -1,8 +1,8 @@
 import './Background.css';
-import video1 from '../../assets/video1.mp4';
-import bg1 from '../../assets/bg-1.jpg';
-import bg2 from '../../assets/bg-2.jpg';
-import bg3 from '../../assets/bg-3.jpg';
+import video1 from '../assets/video1.mp4';
+import Bg1 from '../assets/bg1.jpg';
+import Bg2 from '../assets/bg-2.jpg';
+import Bg3 from '../assets/bg-3.jpg';
 
 const Background = ({ playStatus, droCount }) => {
     if (playStatus) {
@@ -14,11 +14,11 @@ const Background = ({ playStatus, droCount }) => {
     } else {
         let backgroundImage;
         if (droCount === 0) {
-            backgroundImage = bg1;
+            backgroundImage = Bg1;
         } else if (droCount === 1) {
-            backgroundImage = bg2;
+            backgroundImage = Bg2;
         } else if (droCount === 2) {
-            backgroundImage = bg3;
+            backgroundImage = Bg3;
         }
 
         return (
