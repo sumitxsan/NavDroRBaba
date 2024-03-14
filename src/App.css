@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+.content{
+    height: 100vh;
+}
+
+.text-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 5px 15px;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 50px;
+}
